@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-naylib-v1_1_0.flake = false;
+  inputs.src-naylib-v1_1_0.ref   = "refs/tags/v1.1.0";
   inputs.src-naylib-v1_1_0.owner = "planetis-m";
-  inputs.src-naylib-v1_1_0.ref   = "v1_1_0";
   inputs.src-naylib-v1_1_0.repo  = "naylib";
   inputs.src-naylib-v1_1_0.type  = "github";
   
