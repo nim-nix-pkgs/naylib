@@ -9,7 +9,7 @@
   
   inputs.src-naylib-v0_5_1.flake = false;
   inputs.src-naylib-v0_5_1.owner = "planetis-m";
-  inputs.src-naylib-v0_5_1.ref   = "refs/tags/v0.5.1";
+  inputs.src-naylib-v0_5_1.ref   = "v0_5_1";
   inputs.src-naylib-v0_5_1.repo  = "naylib";
   inputs.src-naylib-v0_5_1.type  = "github";
   

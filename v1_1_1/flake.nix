@@ -7,11 +7,11 @@
   inputs.flakeNimbleLib.type  = "github";
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
-  inputs.src-naylib-main.flake = false;
-  inputs.src-naylib-main.owner = "planetis-m";
-  inputs.src-naylib-main.ref   = "main";
-  inputs.src-naylib-main.repo  = "naylib";
-  inputs.src-naylib-main.type  = "github";
+  inputs.src-naylib-v1_1_1.flake = false;
+  inputs.src-naylib-v1_1_1.owner = "planetis-m";
+  inputs.src-naylib-v1_1_1.ref   = "v1_1_1";
+  inputs.src-naylib-v1_1_1.repo  = "naylib";
+  inputs.src-naylib-v1_1_1.type  = "github";
   
   inputs."eminim".owner = "nim-nix-pkgs";
   inputs."eminim".ref   = "master";
@@ -24,10 +24,10 @@
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
     lib  = flakeNimbleLib.lib;
-    args = ["self" "nixpkgs" "flakeNimbleLib" "src-naylib-main"];
+    args = ["self" "nixpkgs" "flakeNimbleLib" "src-naylib-v1_1_1"];
   in lib.mkRefOutput {
     inherit self nixpkgs ;
-    src  = deps."src-naylib-main";
+    src  = deps."src-naylib-v1_1_1";
     deps = builtins.removeAttrs deps args;
     meta = builtins.fromJSON (builtins.readFile ./meta.json);
   };

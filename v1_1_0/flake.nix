@@ -1,5 +1,5 @@
 {
-  description = ''Yet another raylib Nim wrapper'';
+  description = ''Raylib Nim wrapper'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
@@ -9,13 +9,14 @@
   
   inputs.src-naylib-v1_1_0.flake = false;
   inputs.src-naylib-v1_1_0.owner = "planetis-m";
-  inputs.src-naylib-v1_1_0.ref   = "refs/tags/v1.1.0";
+  inputs.src-naylib-v1_1_0.ref   = "v1_1_0";
   inputs.src-naylib-v1_1_0.repo  = "naylib";
   inputs.src-naylib-v1_1_0.type  = "github";
   
   inputs."eminim".owner = "nim-nix-pkgs";
   inputs."eminim".ref   = "master";
   inputs."eminim".repo  = "eminim";
+  inputs."eminim".dir   = "v2_8_2";
   inputs."eminim".type  = "github";
   inputs."eminim".inputs.nixpkgs.follows = "nixpkgs";
   inputs."eminim".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
