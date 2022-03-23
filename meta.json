@@ -4,7 +4,7 @@
   "method": "git",
   "tags": [
     {
-      "desc": "Yet another raylib Nim wrapper",
+      "description": "Yet another raylib Nim wrapper",
       "license": "MIT",
       "name": "naylib",
       "ref": "refs/tags/v0.2.0",
@@ -12,7 +12,7 @@
       "version": "v0_2_0"
     },
     {
-      "desc": "Yet another raylib Nim wrapper",
+      "description": "Yet another raylib Nim wrapper",
       "license": "MIT",
       "name": "naylib",
       "ref": "refs/tags/v0.2.1",
@@ -20,7 +20,7 @@
       "version": "v0_2_1"
     },
     {
-      "desc": "Yet another raylib Nim wrapper",
+      "description": "Yet another raylib Nim wrapper",
       "license": "MIT",
       "name": "naylib",
       "ref": "refs/tags/v0.2.2",
@@ -28,7 +28,7 @@
       "version": "v0_2_2"
     },
     {
-      "desc": "Yet another raylib Nim wrapper",
+      "description": "Yet another raylib Nim wrapper",
       "license": "MIT",
       "name": "naylib",
       "ref": "refs/tags/v0.2.3",
@@ -36,7 +36,7 @@
       "version": "v0_2_3"
     },
     {
-      "desc": "Yet another raylib Nim wrapper",
+      "description": "Yet another raylib Nim wrapper",
       "license": "MIT",
       "name": "naylib",
       "ref": "refs/tags/v0.3.0",
@@ -44,7 +44,7 @@
       "version": "v0_3_0"
     },
     {
-      "desc": "Yet another raylib Nim wrapper",
+      "description": "Yet another raylib Nim wrapper",
       "license": "MIT",
       "name": "naylib",
       "ref": "refs/tags/v0.4.0",
@@ -52,7 +52,7 @@
       "version": "v0_4_0"
     },
     {
-      "desc": "Yet another raylib Nim wrapper",
+      "description": "Yet another raylib Nim wrapper",
       "license": "MIT",
       "name": "naylib",
       "ref": "refs/tags/v0.5.0",
@@ -60,7 +60,7 @@
       "version": "v0_5_0"
     },
     {
-      "desc": "Yet another raylib Nim wrapper",
+      "description": "Yet another raylib Nim wrapper",
       "license": "MIT",
       "name": "naylib",
       "ref": "refs/tags/v0.5.1",
@@ -234,7 +234,7 @@
   "heads": [
     {
       "name": "naylib",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "author": "Antonis Geralis",
       "desc": "Raylib Nim wrapper",
       "license": "MIT",
