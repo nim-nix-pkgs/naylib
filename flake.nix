@@ -111,6 +111,46 @@
   inputs."naylib-v1_1_1".inputs.nixpkgs.follows = "nixpkgs";
   inputs."naylib-v1_1_1".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
+  inputs."naylib-v1_1_2".dir   = "v1_1_2";
+  inputs."naylib-v1_1_2".owner = "nim-nix-pkgs";
+  inputs."naylib-v1_1_2".ref   = "master";
+  inputs."naylib-v1_1_2".repo  = "naylib";
+  inputs."naylib-v1_1_2".type  = "github";
+  inputs."naylib-v1_1_2".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."naylib-v1_1_2".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
+  inputs."naylib-v1_1_3".dir   = "v1_1_3";
+  inputs."naylib-v1_1_3".owner = "nim-nix-pkgs";
+  inputs."naylib-v1_1_3".ref   = "master";
+  inputs."naylib-v1_1_3".repo  = "naylib";
+  inputs."naylib-v1_1_3".type  = "github";
+  inputs."naylib-v1_1_3".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."naylib-v1_1_3".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
+  inputs."naylib-v1_1_4".dir   = "v1_1_4";
+  inputs."naylib-v1_1_4".owner = "nim-nix-pkgs";
+  inputs."naylib-v1_1_4".ref   = "master";
+  inputs."naylib-v1_1_4".repo  = "naylib";
+  inputs."naylib-v1_1_4".type  = "github";
+  inputs."naylib-v1_1_4".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."naylib-v1_1_4".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
+  inputs."naylib-v1_1_5".dir   = "v1_1_5";
+  inputs."naylib-v1_1_5".owner = "nim-nix-pkgs";
+  inputs."naylib-v1_1_5".ref   = "master";
+  inputs."naylib-v1_1_5".repo  = "naylib";
+  inputs."naylib-v1_1_5".type  = "github";
+  inputs."naylib-v1_1_5".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."naylib-v1_1_5".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
+  inputs."naylib-v1_1_6".dir   = "v1_1_6";
+  inputs."naylib-v1_1_6".owner = "nim-nix-pkgs";
+  inputs."naylib-v1_1_6".ref   = "master";
+  inputs."naylib-v1_1_6".repo  = "naylib";
+  inputs."naylib-v1_1_6".type  = "github";
+  inputs."naylib-v1_1_6".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."naylib-v1_1_6".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@inputs:
   let 
     lib  = flakeNimbleLib.lib;
