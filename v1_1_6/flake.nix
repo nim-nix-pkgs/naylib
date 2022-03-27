@@ -7,12 +7,12 @@
   inputs.flakeNimbleLib.type  = "github";
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
-  inputs.src-naylib-v1_1_0.flake = false;
-  inputs.src-naylib-v1_1_0.ref   = "refs/tags/v1.1.0";
-  inputs.src-naylib-v1_1_0.owner = "planetis-m";
-  inputs.src-naylib-v1_1_0.repo  = "naylib";
-  inputs.src-naylib-v1_1_0.dir   = "";
-  inputs.src-naylib-v1_1_0.type  = "github";
+  inputs.src-naylib-v1_1_6.flake = false;
+  inputs.src-naylib-v1_1_6.ref   = "refs/tags/v1.1.6";
+  inputs.src-naylib-v1_1_6.owner = "planetis-m";
+  inputs.src-naylib-v1_1_6.repo  = "naylib";
+  inputs.src-naylib-v1_1_6.dir   = "";
+  inputs.src-naylib-v1_1_6.type  = "github";
   
   inputs."eminim".owner = "nim-nix-pkgs";
   inputs."eminim".ref   = "master";
@@ -25,13 +25,13 @@
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
     lib  = flakeNimbleLib.lib;
-    args = ["self" "nixpkgs" "flakeNimbleLib" "src-naylib-v1_1_0"];
+    args = ["self" "nixpkgs" "flakeNimbleLib" "src-naylib-v1_1_6"];
     over = if builtins.pathExists ./override.nix 
            then { override = import ./override.nix; }
            else { };
   in lib.mkRefOutput (over // {
     inherit self nixpkgs ;
-    src  = deps."src-naylib-v1_1_0";
+    src  = deps."src-naylib-v1_1_6";
     deps = builtins.removeAttrs deps args;
     meta = builtins.fromJSON (builtins.readFile ./meta.json);
   } );

@@ -11,6 +11,7 @@
   inputs.src-naylib-v0_5_1.ref   = "refs/tags/v0.5.1";
   inputs.src-naylib-v0_5_1.owner = "planetis-m";
   inputs.src-naylib-v0_5_1.repo  = "naylib";
+  inputs.src-naylib-v0_5_1.dir   = "";
   inputs.src-naylib-v0_5_1.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
