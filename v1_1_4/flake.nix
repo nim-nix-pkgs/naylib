@@ -11,7 +11,6 @@
   inputs.src-naylib-v1_1_4.ref   = "refs/tags/v1.1.4";
   inputs.src-naylib-v1_1_4.owner = "planetis-m";
   inputs.src-naylib-v1_1_4.repo  = "naylib";
-  inputs.src-naylib-v1_1_4.dir   = "";
   inputs.src-naylib-v1_1_4.type  = "github";
   
   inputs."eminim".owner = "nim-nix-pkgs";
