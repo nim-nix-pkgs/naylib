@@ -64,7 +64,7 @@
         "eminim": "eminim",
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
-        "src-naylib-main": "src-naylib-main"
+        "src-naylib-v1_1_6": "src-naylib-v1_1_6"
       }
     },
     "src-eminim-v2_8_2": {
@@ -84,19 +84,19 @@
         "type": "github"
       }
     },
-    "src-naylib-main": {
+    "src-naylib-v1_1_6": {
       "flake": false,
       "locked": {
-        "lastModified": 1649145205,
-        "narHash": "sha256-UiXL9Lztz6KXCFN2J4pVf4WYH2j6PUoTVl+aQqo7n1Y=",
+        "lastModified": 1648403228,
+        "narHash": "sha256-ijr4PCSRrvVyiCEossiIRGc2ZT9yfj6NbqHbQkEzL1M=",
         "owner": "planetis-m",
         "repo": "naylib",
-        "rev": "7b5f4df981e9af0f30220f3490f9bca3bcc82221",
+        "rev": "1cc6e69a326d4ee3e79e11d01048a9f92b99f04b",
         "type": "github"
       },
       "original": {
         "owner": "planetis-m",
-        "ref": "refs/heads/main",
+        "ref": "refs/tags/v1.1.6",
         "repo": "naylib",
         "type": "github"
       }
