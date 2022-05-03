@@ -87,11 +87,11 @@
     "src-naylib-main": {
       "flake": false,
       "locked": {
-        "lastModified": 1651165243,
-        "narHash": "sha256-bBg65Evo3nnPKKxpA9PA+9Y67xVdLR8W3bWtaPY0ltI=",
+        "lastModified": 1651563069,
+        "narHash": "sha256-XRT7aG03ie9C9K8sF9HMAT5uh8toX48sH0iCaZgngiE=",
         "owner": "planetis-m",
         "repo": "naylib",
-        "rev": "32a315f6049c8b82defd61110d3a8e33a07e5113",
+        "rev": "df0285f7f46ac379e7c29384b080c8c8d8d36ab1",
         "type": "github"
       },
       "original": {
