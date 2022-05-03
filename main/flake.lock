@@ -12,11 +12,11 @@
       },
       "locked": {
         "dir": "v2_8_2",
-        "lastModified": 1650750214,
-        "narHash": "sha256-JxEGTXGy+I8KuU7qnsssGP59sGtQyJE+oVuOEwI5KzY=",
+        "lastModified": 1651555397,
+        "narHash": "sha256-qaU5FZH+7rekFdS/ynBHwbHYMAT16Gqdg0Iv1mfrcaE=",
         "owner": "nim-nix-pkgs",
         "repo": "eminim",
-        "rev": "db50aad006530b158a718b06e8f18386b0f21827",
+        "rev": "cea937ae4a9fbf0dc03b82e3f0ec31f2df577cbb",
         "type": "github"
       },
       "original": {
@@ -50,8 +50,8 @@
     },
     "nixpkgs": {
       "locked": {
-        "narHash": "sha256-sK1Ow//80EKE3bAF5d+2gB8vPXw6m5TBk3wSLHvdVe0=",
-        "path": "/nix/store/0yqgkbpmsk7ck4s34wk505sfdd9vils4-source",
+        "narHash": "sha256-7sWpWRO0IsBP5jm9qCrpuzDkWC7UAghiCmZZ+1uqHKo=",
+        "path": "/nix/store/q2jrkx5a3z6yxzbfai0kxpnqki80jm3l-source",
         "type": "path"
       },
       "original": {
@@ -87,11 +87,11 @@
     "src-naylib-main": {
       "flake": false,
       "locked": {
-        "lastModified": 1649145205,
-        "narHash": "sha256-UiXL9Lztz6KXCFN2J4pVf4WYH2j6PUoTVl+aQqo7n1Y=",
+        "lastModified": 1651165243,
+        "narHash": "sha256-bBg65Evo3nnPKKxpA9PA+9Y67xVdLR8W3bWtaPY0ltI=",
         "owner": "planetis-m",
         "repo": "naylib",
-        "rev": "7b5f4df981e9af0f30220f3490f9bca3bcc82221",
+        "rev": "32a315f6049c8b82defd61110d3a8e33a07e5113",
         "type": "github"
       },
       "original": {
