@@ -12,11 +12,11 @@
       },
       "locked": {
         "dir": "v2_8_2",
-        "lastModified": 1652391004,
-        "narHash": "sha256-NJ7iUIYcNjuj7JOLoerYoDgZkEitQF8uFs7MZlvXOkU=",
+        "lastModified": 1652791421,
+        "narHash": "sha256-5aG172RTtWG369e2QKvTB55x2OjJwdhVaiSMRg91STI=",
         "owner": "nim-nix-pkgs",
         "repo": "eminim",
-        "rev": "c5dfe2d0dfa18968dca8ec874fb5c37cf0e773dd",
+        "rev": "4477c0c7559a8befde99a94a142ea482a470e1a4",
         "type": "github"
       },
       "original": {
@@ -87,11 +87,11 @@
     "src-naylib-main": {
       "flake": false,
       "locked": {
-        "lastModified": 1651563069,
-        "narHash": "sha256-XRT7aG03ie9C9K8sF9HMAT5uh8toX48sH0iCaZgngiE=",
+        "lastModified": 1652788657,
+        "narHash": "sha256-5PObUZynBKPPTuD1+xbb9ngnE4eENYQlSGQ5WfNzXLs=",
         "owner": "planetis-m",
         "repo": "naylib",
-        "rev": "df0285f7f46ac379e7c29384b080c8c8d8d36ab1",
+        "rev": "10c8d849dbc9644b58ea2f1192d169656d92fecb",
         "type": "github"
       },
       "original": {
