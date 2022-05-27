@@ -462,6 +462,223 @@
       "srcDir": "",
       "backend": "c",
       "ref": "refs/tags/v1.3.0"
+    },
+    {
+      "name": "naylib",
+      "version": "1.3.1",
+      "author": "Antonis Geralis",
+      "desc": "Raylib Nim wrapper",
+      "license": "MIT",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 1.6.0",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "1.6.0"
+          }
+        }
+      ],
+      "bin": [
+        "nayget"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/v1.3.1"
+    },
+    {
+      "name": "naylib",
+      "version": "1.3.2",
+      "author": "Antonis Geralis",
+      "desc": "Raylib Nim wrapper",
+      "license": "MIT",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim",
+        "json"
+      ],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 1.6.0",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "1.6.0"
+          }
+        }
+      ],
+      "bin": [
+        "nayget"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/v1.3.2"
+    },
+    {
+      "name": "naylib",
+      "version": "1.3.3",
+      "author": "Antonis Geralis",
+      "desc": "Raylib Nim wrapper",
+      "license": "MIT",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim",
+        "json"
+      ],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 1.6.0",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "1.6.0"
+          }
+        }
+      ],
+      "bin": [
+        "nayget"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/v1.3.3"
+    },
+    {
+      "name": "naylib",
+      "version": "1.3.4",
+      "author": "Antonis Geralis",
+      "desc": "Raylib Nim wrapper",
+      "license": "MIT",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim",
+        "json",
+        "a",
+        "h"
+      ],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 1.6.0",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "1.6.0"
+          }
+        }
+      ],
+      "bin": [
+        "nayget"
+      ],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/v1.3.4"
+    },
+    {
+      "name": "naylib",
+      "version": "1.4.0",
+      "author": "Antonis Geralis",
+      "desc": "Raylib Nim wrapper",
+      "license": "MIT",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 1.6.0",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "1.6.0"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/v1.4.0"
+    },
+    {
+      "name": "naylib",
+      "version": "1.4.0",
+      "author": "Antonis Geralis",
+      "desc": "Raylib Nim wrapper",
+      "license": "MIT",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 1.6.0",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "1.6.0"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/tags/v1.4.1"
+    },
+    {
+      "name": "naylib",
+      "version": "1.4.2",
+      "author": "Antonis Geralis",
+      "desc": "Raylib Nim wrapper",
+      "license": "MIT",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 1.6.0",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "1.6.0"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "src",
+      "backend": "c",
+      "ref": "refs/tags/v1.4.2"
     }
   ],
   "description": "Yet another raylib Nim wrapper",
@@ -488,6 +705,13 @@
     "refs/tags/v1.1.6",
     "refs/tags/v1.2.0",
     "refs/tags/v1.3.0",
+    "refs/tags/v1.3.1",
+    "refs/tags/v1.3.2",
+    "refs/tags/v1.3.3",
+    "refs/tags/v1.3.4",
+    "refs/tags/v1.4.0",
+    "refs/tags/v1.4.1",
+    "refs/tags/v1.4.2",
     ""
   ],
   "heads": [
