@@ -223,6 +223,14 @@
   inputs."naylib-v1_4_2".inputs.nixpkgs.follows = "nixpkgs";
   inputs."naylib-v1_4_2".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
+  inputs."naylib-v1_5_0".dir   = "v1_5_0";
+  inputs."naylib-v1_5_0".owner = "nim-nix-pkgs";
+  inputs."naylib-v1_5_0".ref   = "master";
+  inputs."naylib-v1_5_0".repo  = "naylib";
+  inputs."naylib-v1_5_0".type  = "github";
+  inputs."naylib-v1_5_0".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."naylib-v1_5_0".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@inputs:
   let 
     lib  = flakeNimbleLib.lib;
